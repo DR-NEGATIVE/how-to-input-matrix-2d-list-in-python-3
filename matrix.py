@@ -1,0 +1,10 @@
+a,b=[],[]
+n=int(input("Provide me size of squre matrix row==column : "))
+for i in range(n):
+	for j in range(n):
+		b.append(int(input()))
+	a.append(b)
+	print("Here your {} column {}".format(i+1,a))
+	b=[]
+for m in range(n):
+    print(a[m])
